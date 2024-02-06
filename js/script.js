@@ -28,3 +28,5 @@ switch (value) {
     default:
         console.log("kisu na");
 }
+
+// Loops area add 
