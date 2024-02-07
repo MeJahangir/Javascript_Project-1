@@ -41,3 +41,8 @@ function lsleapYear(year) {
   }
 }
   lsleapYear(2024);
+
+  function myFunction() {
+    console.log("hello bangladesh jahangir");
+  }
+  myFunction();
