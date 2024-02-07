@@ -1,5 +1,5 @@
 // conditions area discount mathord add
-let price = 20000;
+let price = 10000;
 let discountPercentage;
 let discount;
 
@@ -29,4 +29,15 @@ switch (value) {
         console.log("kisu na");
 }
 
-// Loops area add 
+function lsleapYear(year) {
+    if (year % 400 === 0) {
+      console.log("hello");
+  }else if(year % 100 === 0){
+    console.log("Bangladesh");
+  }else if(year % 4 === 0){
+    console.log("Jahangir");
+  }else{
+    console.log("this year is not leap year");
+  }
+}
+  lsleapYear(2024);
