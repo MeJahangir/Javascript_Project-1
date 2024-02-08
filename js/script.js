@@ -46,3 +46,14 @@ function lsleapYear(year) {
     console.log("hello bangladesh jahangir");
   }
   myFunction();
+
+var myArray = [];
+// TODO: write your code here:
+myArray.push(2);
+myArray.push(3);
+myArray.push(6);
+myArray.push(8);
+myArray.push(20);
+console.log(myArray.pop());//last array hidden
+console.log(myArray.shift()); //font aray hiaden
+console.log(myArray);//array print
