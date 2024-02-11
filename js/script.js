@@ -116,8 +116,14 @@ console.log(multiplyFive(5));
 console.log(multiplyFive(6));
 
 // jsvascript pop-up boxes
-var test = prompt("jahangir");
-var test = confirm("Hi");
-var test = alert("Hello");
-console.log(test);
+// var test = prompt("jahangir");
+// var test = confirm("Hi");
+// var test = alert("Hello");
+// console.log(test);
 
+
+var fruits = ["Apple", "Banana", "Orange"];
+for (let i = 0; i < fruits.length; i++) {
+  const test = fruits[i];
+  console.log(test);
+}
