@@ -102,5 +102,15 @@ function greet(everyting) {
 }
 
 var resultFun = greet(" MD JAHANGIR ALAM");
-console.log(resultFun);
-// console.log(greet(" Jahangir alam"));
+console.log(resultFun); // print korar jonno 2 tai right option**
+// console.log(greet(" Jahangir alam")); 
+
+//Define a function called multiplyFive which accepts a 
+//number and returns that number multiplied by 5.
+var multiplyFive = function (number) {
+  return number * 5;
+}
+console.log(multiplyFive(3));
+console.log(multiplyFive(4));
+console.log(multiplyFive(5));
+console.log(multiplyFive(6));
