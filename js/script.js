@@ -57,3 +57,50 @@ myArray.push(20);
 console.log(myArray.pop());//last array hidden
 console.log(myArray.shift()); //font aray hiaden
 console.log(myArray);//array print
+
+// js while loop decrement
+var i = 99;
+while (i > 0)
+{
+    console.log(i + " bottles of beer on the wall");
+    i -= 1; // poti ta print a akta kore kombe
+}
+
+// js loop kore increment print kora 
+for (var i = 1; i <= 100; i++)
+{
+    // check that the number is even
+    if (i % 2 == 0)
+    {
+         continue;
+    }
+    // if we got here, then i is odd.
+    console.log(i + " is an odd number.");
+}
+
+var myArray = ["What is the meaning of life?", "The meaning of life is", 42];
+
+//TODO: modify this code
+for (var i = 0; i<myArray.length; i++){
+    console.log(myArray[i]);
+}
+
+//javascript object declear system
+
+var parson = {
+  firstName :  "Jack",
+  lastName : "Smith",
+  age : 19,
+  employed : true
+}
+
+console.log(parson);
+
+// javascript function add 
+function greet(everyting) {
+  return "Hello" + everyting + "!";
+}
+
+var resultFun = greet(" MD JAHANGIR ALAM");
+console.log(resultFun);
+// console.log(greet(" Jahangir alam"));
