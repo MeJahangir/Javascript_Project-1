@@ -122,22 +122,58 @@ console.log(multiplyFive(6));
 // console.log(test);
 
 
-var fruits = ["Apple", "Banana", "Orange"];
-for (let i = 0; i < fruits.length; i++) {
-  const test = fruits[i];
+var fruit = ["Apple", "Banana", "Orange"];
+for (let i = 0; i < fruit.length; i++) {
+  const test = fruit[i];
   console.log(test);
 }
 
 // while looping
 let fruits = ['apple','banana','orange','tomato','litchi'];
-let i = 0;
+let x = 0;
 let fruitslen = fruits.length;
-while (i < fruitslen) {
-  console.log(fruits[i]);
-  if (fruits[i] == 'orange') {
-    i++;
+while (x < fruitslen) {
+  console.log(fruits[x]);
+  if (fruits[x] == 'orange') {
+    x++;
     continue;
   }
   console.log('Programing is very hard');
-  i++;
+  x++;
 }
+// javascript forEach area add
+let numbers =[1,2,3,4,5];
+numbers.forEach((item, index, arr) => {
+  // console.log(arr);
+  console.log('a[' + index + '] = ' + item);
+});
+  
+var letters = ['a', 'b', 'c', 'd', 'a', 'c', 'a', 'b'];
+let count = {};
+letters.forEach(item =>{
+  if (count[item]) {
+    count[item]++;
+  }else{
+    count[item]= 1
+  }
+});
+
+console.log(count);
+
+let number =[1,2,3,4,5];
+let numberDouble = number.map(multiply);
+function multiply(value, index, arr) {
+  return value * 2;
+}
+console.log(numberDouble);
+// result: 2,4,6,8,10
+
+console.log(count);
+
+let indDouble =[1,2,3,4,5];
+let DoubleIndex = indDouble.map(multiply);
+function multiply(value, index, arr) {
+  return value * index;
+}
+console.log(DoubleIndex);
+// result: 2,4,6,8,10
