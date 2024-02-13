@@ -177,3 +177,12 @@ function multiply(value, index, arr) {
 }
 console.log(DoubleIndex);
 // result: 2,4,6,8,10
+
+// for condition 
+let text = '';
+for (let i = 0; i < 10; i++) {
+  if (i === 3) {break;} {
+     text += "The number is " + i + '<br>'; 
+  } 
+}
+console.log(text);
