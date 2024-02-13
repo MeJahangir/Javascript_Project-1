@@ -17,3 +17,5 @@
 //     i++;
 // }
 
+var isSingle = true;
+console.log(isSingle);
