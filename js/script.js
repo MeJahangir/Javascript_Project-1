@@ -128,19 +128,6 @@ for (let i = 0; i < fruit.length; i++) {
   console.log(test);
 }
 
-// while looping
-let fruits = ['apple','banana','orange','tomato','litchi'];
-let x = 0;
-let fruitslen = fruits.length;
-while (x < fruitslen) {
-  console.log(fruits[x]);
-  if (fruits[x] == 'orange') {
-    x++;
-    continue;
-  }
-  console.log('Programing is very hard');
-  x++;
-}
 // javascript forEach area add
 let numbers =[1,2,3,4,5];
 numbers.forEach((item, index, arr) => {
@@ -186,3 +173,24 @@ for (let i = 0; i < 10; i++) {
   } 
 }
 console.log(text);
+
+
+let fruits = ['apple', 'banana', 'orange', 'tomato', 'litchi'];
+let x = 0; // Initialize a variable `x` to 0, which will be used as an index to access elements in the array.
+let fruitslen = fruits.length; // Get the length of the `fruits` array.
+
+// Start a while loop which will continue as long as `x` is less than `fruitslen`.
+while (x < fruitslen) {
+  console.log(fruits[x]); // Print the current fruit at index `x`.
+  
+  // Check if the current fruit is 'orange'. If it is, increment `x` and skip to the next iteration using `continue`.
+  if (fruits[x] == 'orange') {
+    x++; // Increment `x`.
+    continue; // Skip the rest of the loop's body and move to the next iteration.
+  }
+  
+  // If the current fruit is not 'orange', print a message saying "Programming is very hard".
+  console.log('Programming is very hard');
+  
+  x++; // Increment `x` to move to the next element in the `fruits` array.
+}
