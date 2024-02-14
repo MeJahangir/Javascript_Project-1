@@ -56,3 +56,35 @@ if (aset.key == 'a4') {
 }
 
 console.log(aset.key);
+
+// let parsons = ['jahangir', 'nur', 'zak', 'hamid', 'mehedi'];
+
+let parsons = [
+    {
+        NAME : 'MD JAHANGIR ALAM',
+        AGE : 100,
+        WEIGHT : 500,
+        SEX : 'MALE'
+    },
+    {
+        NAME : 'MD NUR MOHAMMAD',
+        AGE : 70,
+        WEIGHT : 200,
+        SEX : 'MALE'
+    },
+    {
+        NAME : 'MD ROFIQ',
+        AGE : 30,
+        WEIGHT : 40,
+        SEX : 'MALE'
+    },
+    {
+        NAME : 'MD SADIA',
+        AGE : 20,
+        WEIGHT : 60,
+        SEX : 'FEMALE'
+    }
+]
+
+// console.log(parsons[2].AGE);
+console.log(parsons[1]);
