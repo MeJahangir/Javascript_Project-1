@@ -85,6 +85,5 @@ let parsons = [
         SEX : 'FEMALE'
     }
 ]
-
-// console.log(parsons[2].AGE);
-console.log(parsons[1]);
+parsons.push({ NAME: 'MUNNA', AGE: 32, WEIGHT: 50, SEX: 'MALE'});
+console.log(parsons);
