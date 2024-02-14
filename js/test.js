@@ -41,3 +41,18 @@ for (var i = 0; i < 100; i++)
     // if we got here, then i is odd.
     console.log(i + " is an odd number.");
 }
+
+
+let aset = {
+    mobile : 'samsung',
+    laptop : 'asus',
+    key : 'a4',
+    mouse : 'logitac',
+    headphone : 'uishi'
+};
+
+if (aset.key == 'a4') {
+    aset.key = 'razer';
+}
+
+console.log(aset.key);
