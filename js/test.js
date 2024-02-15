@@ -42,7 +42,7 @@ for (var i = 0; i < 100; i++)
     console.log(i + " is an odd number.");
 }
 
-
+// Object key value change**
 let aset = {
     mobile : 'samsung',
     laptop : 'asus',
@@ -54,10 +54,7 @@ let aset = {
 if (aset.key == 'a4') {
     aset.key = 'razer';
 }
-
 console.log(aset.key);
-
-// let parsons = ['jahangir', 'nur', 'zak', 'hamid', 'mehedi'];
 
 let parsons = [
     {
@@ -84,6 +81,11 @@ let parsons = [
         WEIGHT : 60,
         SEX : 'FEMALE'
     }
-]
+];
 parsons.push({ NAME: 'MUNNA', AGE: 32, WEIGHT: 50, SEX: 'MALE'});
-console.log(parsons);
+// console.log(parsons);
+// Array => object => only name print.***
+for (let I = 0; I < parsons.length; I++) {
+    const element = parsons[I].NAME;
+    console.log(element);
+}
