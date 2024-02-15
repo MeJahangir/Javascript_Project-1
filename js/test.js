@@ -89,3 +89,9 @@ for (let I = 0; I < parsons.length; I++) {
     const element = parsons[I].NAME;
     console.log(element);
 }
+
+// javascript function add 
+function greet(name) {
+    return "Hello" + ' ' + name + '!';
+}
+console.log(greet('Jahangir'));
