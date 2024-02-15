@@ -95,3 +95,20 @@ function greet(name) {
     return "Hello" + ' ' + name + '!';
 }
 console.log(greet('Jahangir'));
+
+//Multy function add 
+
+var multifunction = function (number) {
+    return number * 10;
+}
+console.log(multifunction(10));
+
+// conditional 
+var iphonePrice = 70000;
+var myBudget = 95000;
+
+if (iphonePrice <= myBudget) {
+    console.log("Iphone kine futani korbo");
+}else{
+    console.log("Iphone kenar taka nai");
+}
