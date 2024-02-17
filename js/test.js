@@ -129,7 +129,6 @@ var informantion = [
 
 console.log(informantion[0].GENDER);
 
-let numbers = 2;
 for (let x = 0; x < 20; x++) {
     const elements = x;
     console.log(elements);
