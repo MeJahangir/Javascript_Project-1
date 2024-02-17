@@ -2,12 +2,12 @@
 // Ans: kono data k akta jayga te store kore rakhar jonno j sentax use kora hoy take variable bole
 // Example :
 var x = "md jahangir alam";
-let y = "md jahangir alam";
+var y = "md jahangir alam";
 const z = "md jahangir alam";
 
 
 var firstName = "jahangir";
-let lastName  = "alam";
+var lastName  = "alam";
 const fullName = "md jahangir alam";
 console.log(firstName);
 console.log(lastName);
@@ -49,10 +49,10 @@ Array
 */
 
 // Naming Convention of js variables
-let fastName;
-let numberOfStudent;
-let totalAmountPaid;
-let isValidUser;
+var fastName;
+var numberOfStudent;
+var totalAmountPaid;
+var isValidUser;
 
 // Math Operation +.-.*.%
 
@@ -114,7 +114,7 @@ var formattedNum = num.toFixed(3); // Returns "3.14" (a string)
 var parsedNum = parseFloat(formattedNum); // Parses the string back to a number
 console.log(parsedNum); // Outputs 3.14
 
-// How to declare an array in js.
+// How to declare an array in js. array index declear
 var myArray = [1,2,3,4,5,6,7,8,9,10];
 console.log(myArray[4]);
 
@@ -125,3 +125,25 @@ var array4 = [false, true, false]; // Array of booleans
 
 var result = array1 + array2 + array3 + array4;
 console.log(result);
+
+var array = [1, 2, 3, 4, 5];
+console.log(array.length); // Result 5
+
+// find the velue of an element by index.
+var array = [10, 20, 30, 40, 50];
+
+// Finding the value at index 2 (which is the third element)
+var valueAtIndex2 = array[2];
+console.log(valueAtIndex2); // Output: 30
+
+// Change an element by index.
+var array = [10, 20, 30, 40, 50];
+array[2] = 35;
+console.log(array); // Output: [10, 20, 35, 40, 50]
+
+//Get the index of an element by the value
+var array = [10, 20, 30, 40, 50];
+var valueToFind = 30;
+
+var index = array.indexOf(valueToFind);
+console.log(index); // Output: 2

@@ -12,18 +12,18 @@ Naming Convention of js variables*
 Math Operation +.-.*.% *
 Short hand : +=. -=. *=. /= *
 ++, --*
-parseInt, parseFloat
-toFixed
+parseInt, parseFloat *
+toFixed *
 */
 
 /*
 ............
 Array
 ............
-What is the purpose array?
-how to declare an array in js.
-number of elements in an array.
-what is index?
+What is the purpose array? *
+how to declare an array in js. *
+number of elements in an array.*
+what is index? *
 find the velue of an element by index.
 Change an element by index.
 get the index of an element by the value.
