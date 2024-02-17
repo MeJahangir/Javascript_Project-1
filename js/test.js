@@ -129,7 +129,7 @@ var informantion = [
 
 console.log(informantion[0].GENDER);
 
-for (let x = 0; x < 20; x++) {
-    const elements = x;
+for (x = 1; x < 20; x++) {
+   let elements = x + 2;
     console.log(elements);
 }
