@@ -147,3 +147,35 @@ var valueToFind = 30;
 
 var index = array.indexOf(valueToFind);
 console.log(index); // Output: 2
+
+
+// what does it mean when you get undefined while getting the value of an elements.
+var obj = { name: "John", age: 30 };
+console.log(obj.address); // Output: undefined
+
+var array = [1, 2, 3];
+console.log(array[5]); // Output: undefined
+
+var myVariable;
+console.log(myVariable); // Output: undefined
+
+function myFunction() {
+    // No return statement
+}
+var result = myFunction();
+console.log(result); // Output: undefined
+
+// how can you add an element to an array at the last positon
+var arrayAdd = [1,2,3,4,5,6,7,8];
+arrayAdd.push(100);
+console.log(arrayAdd); //Output : last 100
+
+// how can you add an element from array at the first position
+var arrayAdd = [1,2,3,4,5,6,7,8];
+arrayAdd.unshift(2);
+console.log(arrayAdd);
+
+// how can you remove an element from array at the first position
+var arrayAdd = [1,2,3,4,5,6,7,8];
+arrayAdd.shift();
+console.log(arrayAdd);

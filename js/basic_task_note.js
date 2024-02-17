@@ -24,14 +24,14 @@ What is the purpose array? *
 how to declare an array in js. *
 number of elements in an array.*
 what is index? *
-find the velue of an element by index.
-Change an element by index.
-get the index of an element by the value.
-what does it mean when you get undefined while getting the value of an elements.
-how can you add an element to an array at the last positon
-how can you remove an element from array at the first position
-add an element at the first positon of an array
-Remove the first element of an array
+find the velue of an element by index.*
+Change an element by index.*
+get the index of an element by the value.*
+what does it mean when you get undefined while getting the value of an elements.*
+how can you add an element to an array at the last positon*
+how can you remove an element from array at the first position*
+add an element at the first positon of an array*
+Remove the first element of an array*
 */
 
 /*
