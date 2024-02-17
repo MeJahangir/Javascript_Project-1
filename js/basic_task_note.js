@@ -9,9 +9,9 @@ Declare a variable*
 Types of variable? How can you find out type of a variable*
 Primitive and non-primitive data types*
 Naming Convention of js variables*
-Math Operation +.-.*.%
-Short hand : +=. -=. *=. /=
-++, --
+Math Operation +.-.*.% *
+Short hand : +=. -=. *=. /= *
+++, --*
 parseInt, parseFloat
 toFixed
 */

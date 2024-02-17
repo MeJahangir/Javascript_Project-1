@@ -56,27 +56,72 @@ let isValidUser;
 
 // Math Operation +.-.*.%
 
-let resultadd = 10 + 5; // Addition
+var result = 10 + 5; // Addition
 result = 10 - 5;     // Subtraction
 result = 10 * 5;     // Multiplication
 result = 10 / 5;     // Division
 result = 10 % 3;     // Modulus (remainder after division)
 
-let x = 10;          // Assigns the value 10 to variable x
+// +=, -=, value 
+var x = 10;          // Assigns the value 10 to variable x
 x += 5;              // Equivalent to: x = x + 5
 
-let results = 10 > 5;   // Greater than
+var x = 10;          // Assigns the value 10 to variable x
+x -= 5;              // Equivalent to: x = x - 5
+
+// Meaning of : >, <, >=, <=, ==, !=, ===, !==;
+var result = 10 > 5;   // Greater than
 result = 10 < 5;       // Less than
 result = 10 >= 5;      // Greater than or equal to
 result = 10 <= 5;      // Less than or equal to
 result = 10 === 5;     // Equal to (strict equality)
 result = 10 !== 5;     // Not equal to (strict inequality)
 
-let result = true && false;  // Logical AND
+var result = true && false;  // Logical AND
 result = true || false;      // Logical OR
 result = !true;              // Logical NOT
-
-let x = 5;
+console.log(result);
+// Increment and Decrement x++, x--,
+var x = 5;
 x++;         // Increment by 1
 x--;         // Decrement by 1
 
+console.log(x);
+// ParseInte value check
+var num1 = parseInt("123");
+console.log(num1);
+// Example
+var result = parseInt("abc"); // result will be NaN
+if (isNaN(result)) {
+    console.log("Not a number");
+}
+
+//ParseFloat value check
+var num2 = parseFloat('3.22');
+console.log(num2);
+// Example: 
+var result = parseFloat("abc"); // result will be NaN
+if (isNaN(result)) {
+    console.log("Not a number");
+}
+
+var num = 3.14159;
+var formattedNum = num.toFixed(1); // Rounds to 2 decimal places
+console.log(formattedNum); // Outputs "3.14"
+
+var num = 3.14159;
+var formattedNum = num.toFixed(3); // Returns "3.14" (a string)
+var parsedNum = parseFloat(formattedNum); // Parses the string back to a number
+console.log(parsedNum); // Outputs 3.14
+
+// How to declare an array in js.
+var myArray = [1,2,3,4,5,6,7,8,9,10];
+console.log(myArray[4]);
+
+var array1 = []; // Empty array
+var array2 = [1, 2, 3, 4, 5]; // Array with initial values
+var array3 = ["apple", "banana", "orange"]; // Array of strings
+var array4 = [false, true, false]; // Array of booleans
+
+var result = array1 + array2 + array3 + array4;
+console.log(result);
