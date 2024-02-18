@@ -189,3 +189,12 @@ console.log(top);// 50
 var num3 = [10, 20, 30, 40, 50];
 var low = Math.min(...num3);
 console.log(low);// 10
+
+// Slice system
+var text = 'apple, banana, mango, deth';
+var part = text.slice(-11, -6);
+console.log(part);// output: mango
+
+var array = ['apple', 'banana', 'orange', 'litchi'];
+array.pop();
+console.log(array); // output : Litchi delet hobe
