@@ -179,3 +179,13 @@ console.log(arrayAdd);
 var arrayAdd = [1,2,3,4,5,6,7,8];
 arrayAdd.shift();
 console.log(arrayAdd);
+
+// Max-value check 
+var num3 = [10, 20, 30, 40, 50];
+var top = Math.max(...num3);
+console.log(top);// 50
+
+// Min-value check 
+var num3 = [10, 20, 30, 40, 50];
+var low = Math.min(...num3);
+console.log(low);// 10
