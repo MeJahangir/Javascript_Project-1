@@ -198,3 +198,13 @@ console.log(part);// output: mango
 var array = ['apple', 'banana', 'orange', 'litchi'];
 array.pop();
 console.log(array); // output : Litchi delet hobe
+
+// display "ajke amar mon valo nai" for 39 times 
+for (var tast = 0; tast < 39; tast++) {
+    console.log('ajke amar mon valo nai'); 
+}
+
+// Display numbers between 58 to 98
+for (var index = 58; index <= 98; index++) {
+    console.log(index);
+}
