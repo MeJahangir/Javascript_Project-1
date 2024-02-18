@@ -230,3 +230,16 @@ let callback = function () {
     console.log('Done');
 }
 setTimeout(callback, 5000);
+
+
+function myFunction(number) {
+    return(number%2 == 0);
+}
+console.log(myFunction(30));
+
+
+function test(noor) {
+    return noor.toUpperCase();
+}
+var result = text(dgjoerjgorajgoair);
+console.log(result);
