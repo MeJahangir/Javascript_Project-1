@@ -129,7 +129,12 @@ var informantion = [
 
 console.log(informantion[0].GENDER);
 
-for (x = 1; x < 20; x++) {
-   let elements = x + 2;
-    console.log(elements);
+for (x = 1; x <= 20; x++) {
+   let elements = x;
+    console.log(elements); 
 }
+var callback = function() {
+    console.log("Done!");
+}
+
+setTimeout(callback, 2000);

@@ -47,8 +47,8 @@ javascript basic
 ................
 Loop
 ................
-5.display "ajke amar mon valo nai" for 39 times
-6.Display numbers between 58 to 98
+5.display "ajke amar mon valo nai" for 39 times*
+6.Display numbers between 58 to 98*
 7.Show all even numbers 582 to 624
 8. Show all odd numbers 411 to 623
 9.Difference between while loop and for loop

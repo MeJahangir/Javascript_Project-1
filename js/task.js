@@ -208,3 +208,25 @@ for (var tast = 0; tast < 39; tast++) {
 for (var index = 58; index <= 98; index++) {
     console.log(index);
 }
+
+// Show all even numbers 582 to 624 
+for (let num = 582; num < 624; num++) {
+    if (num % 2 === 0) {
+        console.log(num);
+    }     
+}
+
+// Time set function two way
+function myFunction() {
+    console.log("Done");
+}
+setTimeout(myFunction, 3000);
+
+setTimeout(function(){
+    console.log('Done');
+}, 3000);
+
+let callback = function () {
+    console.log('Done');
+}
+setTimeout(callback, 5000);
