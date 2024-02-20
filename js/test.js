@@ -138,3 +138,8 @@ var callback = function() {
 }
 
 setTimeout(callback, 2000);
+
+var test = function () {
+    console.log("You are done");
+}
+setTimeout(test, 4000);
