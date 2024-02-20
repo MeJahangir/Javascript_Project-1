@@ -97,7 +97,6 @@ function greet(name) {
 console.log(greet('Jahangir'));
 
 //Multy function add 
-
 var multifunction = function (number) {
     return number * 10;
 }
@@ -143,3 +142,16 @@ var test = function () {
     console.log("You are done");
 }
 setTimeout(test, 4000);
+
+setTimeout(function() {
+    console.log("jahangir!");
+}, 5000);
+
+var counter = 0;
+var intervalId = setInterval(function() {
+    console.log("Interval: " + counter);
+    counter++;
+    if (counter >= 5) {
+        clearInterval(intervalId); // Clears the interval after it has executed 5 times
+    }
+}, 2000);

@@ -216,7 +216,7 @@ for (let num = 582; num < 624; num++) {
     }     
 }
 
-// Time set function two way
+//setTimeout function two way
 function myFunction() {
     console.log("Done");
 }
@@ -231,15 +231,28 @@ let callback = function () {
 }
 setTimeout(callback, 5000);
 
-
+// even number check
 function myFunction(number) {
     return(number%2 == 0);
 }
-console.log(myFunction(30));
+console.log(myFunction(31));
 
+// Odd number check
+function myFunction(number) {
+    return (number % 3 == 1);
+}
+console.log(myFunction(31)); // Output: true
 
+// UpperCase function
 function test(noor) {
     return noor.toUpperCase();
 }
-var result = text(dgjoerjgorajgoair);
+var result = test('dgjoerjgorajgoair');
 console.log(result);
+
+// lowarCase function
+function textLow(myName) {
+    return myName.toLowerCase();
+}
+var testLow = textLow("MD JAHANGIR ALAM");
+console.log(testLow);
