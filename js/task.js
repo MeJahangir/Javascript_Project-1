@@ -256,3 +256,26 @@ function textLow(myName) {
 }
 var testLow = textLow("MD JAHANGIR ALAM");
 console.log(testLow);
+
+// arrow function
+var greet = (names) => {return "Hello Jahangir" + names + "!"};
+console.log(greet('alam'));
+
+
+var missingNumber = function(nums) {
+    const n = nums.length();
+};
+
+
+console.log(n);
+
+
+function searchInsert(nums, target) {
+    let left = 0;
+    let right = nums.length -1;
+
+    while (condition) {
+        
+    }
+}
+
