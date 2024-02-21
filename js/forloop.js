@@ -79,5 +79,9 @@ target = 7;
 console.log(searchInsert(nums, target));
 
 let myName = "jahangir";
-let myName = "joy";
+myName = "joy";
 console.log(myName);
+
+const amarNama = "jahangir";
+
+console.log(amarNama);
