@@ -78,10 +78,8 @@ console.log(searchInsert(nums, target)); // Output: 1 (index where target would 
 target = 7;
 console.log(searchInsert(nums, target));
 
-let myName = "jahangir";
-myName = "joy";
-console.log(myName);
-
-const amarNama = "jahangir";
-
-console.log(amarNama);
+// array reveriseing 
+var fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+fruits.sort();
+fruits.reverse()
+console.log(fruits); 
