@@ -33,10 +33,14 @@ let fruits = [
 
 let promise = new Promise((resolve, reject) => {
 
-    if (nur === 'right') {
-        resolve(fruits);
+    if (nur === 'right' || jahangir === 'right') {
+        setTimeout(function() {
+            resolve(fruits);
+        }, 2000);
     }else{
-        reject("error");
+        setTimeout(function() {
+            reject("error");
+        }, 6000);
     }
 });
 
