@@ -1,6 +1,6 @@
 // for looping
 
-let cars = [
+let car = [
     'BMW',
     'volvo',
     'saab',
@@ -10,8 +10,8 @@ let cars = [
 ];
 
 let test = '';
-for (let i = 0; i < cars.length; i++) {
-    let test = cars[i];
+for (let i = 0; i < car.length; i++) {
+    let test = car[i];
     console.log(test);  
 }
 
@@ -21,3 +21,19 @@ while ( count <= 20 ) {
     count++;
 }
 console.log('Loop finished.');
+
+let cars = ['BMW', 'Volvo', 'Saab', 'Ford', 'Depjol', 'Tata'];
+let counts = 0;
+cars.forEach((car, index) => {
+    if(car == "Ford"){
+        counts = counts + 10;
+    } 
+    if(car == "Tata"){
+        counts += 30;
+    }
+});
+
+console.log(counts);
+
+
+// console.log(cars);
