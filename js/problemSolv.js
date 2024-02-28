@@ -21,7 +21,7 @@ for (let m = 0; m <= 10; m++) {
     console.log(row); 
 }
 
-
+// #4: Print all the multiplication tables with numbers from 1 to 10
 for (var i = 1; i <= 11; i++) {
     printTable(i);
     console.log(""); // Add an empty line between tables  line gap
@@ -54,3 +54,10 @@ function multiplications(n) {
 }
 // text = multiplications();
 // console.log(text);
+
+// #5: Calculate the sum of numbers from 1 to 10
+var sum = 0;
+for (let i = 1; i <= 10; i++) {
+    sum += i; 
+    console.log(sum);  
+}
