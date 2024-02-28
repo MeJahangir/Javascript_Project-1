@@ -43,3 +43,9 @@ for(const x of strName){
 }
 console.log(names);
 // document.getElementById('demo').innerHTML= strName;
+
+const mySet = new Set([1,2,3,4,5,6]);
+mySet.add(10);
+mySet.delete(3);
+console.log(mySet.has(4)); //true hobe
+console.log(mySet.has(3)); //false hobe
