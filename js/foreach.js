@@ -35,3 +35,11 @@ for (let i = 0; i < 10; i++) {
     text += i; 
 }
 console.log(text);// 3 print korbe na
+
+let strName = "MDJAHANGIRALAM";
+let names = "";
+for(const x of strName){
+    names += x + "<br>";
+}
+console.log(names);
+// document.getElementById('demo').innerHTML= strName;
