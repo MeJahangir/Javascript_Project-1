@@ -49,3 +49,4 @@ mySet.add(10);
 mySet.delete(3);
 console.log(mySet.has(4)); //true hobe
 console.log(mySet.has(3)); //false hobe
+console.log(mySet.size); //size check
