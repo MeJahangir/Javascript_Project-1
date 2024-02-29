@@ -166,7 +166,7 @@ var intervalId = setInterval(function() {
 
 foreach ($students as $student) {
     echo "<div>";
-    echo "<h2>Student Information</h2>";
+    
     echo "<p><strong>Name:</strong> " . $student['name'] . "</p>";
     echo "<p><strong>Roll:</strong> " . $student['roll'] . "</p>";
     echo "<p><strong>Class:</strong> " . $student['class'] . "</p>";
