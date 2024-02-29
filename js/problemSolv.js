@@ -61,3 +61,12 @@ for (let i = 1; i <= 10; i++) {
     sum += i; 
     console.log(sum);  
 }
+
+// #6: Calculate 10!
+var prod = 1;
+for (let i = 0; i <= 10; i++) {
+    prod *= i;  
+}
+console.log(prod);
+
+// Calculate the sum of odd numbers greater than 10 and less than 30
