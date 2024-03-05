@@ -156,27 +156,3 @@ var intervalId = setInterval(function() {
     }
 }, 2000);
 
-
-
-
-
-
-
-
-
-foreach ($students as $student) {
-    echo "<div>";
-    
-    echo "<p><strong>Name:</strong> " . $student['name'] . "</p>";
-    echo "<p><strong>Roll:</strong> " . $student['roll'] . "</p>";
-    echo "<p><strong>Class:</strong> " . $student['class'] . "</p>";
-    echo "<h3><strong>Subjects:</strong> " . implode(', ', $student['subjects']) . "</h3>";
-    echo "<p><strong>Marks:</strong></p>";
-    echo "<ul>";
-    foreach ($student['marks'] as $subject => $mark) {
-        echo "<li>$subject: $mark</li>";
-    }
-    echo "</ul>";
-    echo "</div>";
-    // echo "<hr>"; // Add a horizontal line between each student's information
-}
