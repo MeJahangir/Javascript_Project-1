@@ -1,4 +1,6 @@
 // javascript function add 
-function greet(everyting) {
-    return "Hello" + everyting + "!";
+function myFunction() {
+  if (condition) {
+    
   }
+}
