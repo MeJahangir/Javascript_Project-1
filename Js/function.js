@@ -10,3 +10,13 @@ function isAdult(age) {
 // Calling the function with different arguments
 isAdult(25); // Output: "You are an adult."
 isAdult(15);
+
+function myFunction(product) {
+  let i = 1;
+  for (let i = 1; i < product.length; i++) {
+    const element = product[i];
+    console.log(element);
+  }
+}
+
+const product = [1,2,3,4,5,6,7,8,9];
