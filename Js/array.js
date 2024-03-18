@@ -70,4 +70,8 @@ let test = [1,2,3,4,5,6,7,8,9,0];
 let len = test.length;
 console.log(len);
 
-console.log(pop(2));
+test.pop();
+test.shift();
+console.log(test);
+
+
